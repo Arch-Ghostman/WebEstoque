@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.table th {
+    background-color: #87898b;
+    color: rgb(11, 11, 11);
+}
+
+.status-bom {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.status-mediano {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.status-ruim {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.item-img {
+    max-width: 200px;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.specs-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.specs-table th {
+    background-color: #f8f9fa;
+    width: 30%;
+}
+
+#resumoInventario .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge-count {
+    font-size: 0.9rem;
+}
+
+.detail-section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.detail-section:last-child {
+    border-bottom: none;
+}
+
+.specs-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #495057;
+    font-weight: bold;
+}
